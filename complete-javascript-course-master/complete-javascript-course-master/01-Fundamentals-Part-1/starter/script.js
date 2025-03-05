@@ -4,7 +4,8 @@
 // 10 * 2 + 99 - 6;
 // console.log(10 * 2 + 99 - 9);
 
-// Values and Variables 
+/*
+// Values and Variables
 // Assignments
 let country = "Ethiopia";
 let continent = "Africa";
@@ -29,8 +30,8 @@ console.log("Does " + country + " have more people than Norway? " + (population 
 
 const description = `${country} is located in ${continent}. It has around ${population} people living in it. The official language of ${country} is ${language}.
 Go ${country}!!`;
-
 console.log(description);
+*/
 
 // Data types
 /*
@@ -67,7 +68,7 @@ height = 1.89;
 // Basic operators
 // Operator precedence
 
-
+/*
 // Template literal
 let firstName = "Bob";
 let introduction = `Hi I'm ${firstName}.`;
@@ -84,4 +85,17 @@ console.log('9' - '5'); // -> 4
 console.log('19' - '13' + '17'); // -> 617
 console.log('19' - '13' + 17); // -> 23
 console.log('123' < 57); // -> false
-console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 117x  1143      
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 117x  1143
+*/
+
+// == and ===
+let numNeighbours = prompt("How many countries neighbour your country?");
+if (numNeighbours == 0) {
+    console.log(`No neighbours!`);
+} else if (numNeighbours == 1) {
+    console.log(`You've 1 neighbour!`);
+} else if (numNeighbours == 2) {
+    console.log(`You've 2 neighbour!`);
+} else {
+    console.log("You've more than 2 neighbours!");
+}
