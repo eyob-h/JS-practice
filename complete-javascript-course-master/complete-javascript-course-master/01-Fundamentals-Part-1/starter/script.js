@@ -63,3 +63,11 @@ height = 1.89;
 
 // Basic operators
 // Operator precedence
+
+
+// Template literal
+let firstName = "Bob";
+let introduction = `Hi I'm ${firstName}.`;
+let lastName = `John`;
+let introducelastName = `My last name is ${lastName}.`;
+console.log(introduction, introducelastName);
