@@ -27,7 +27,10 @@ console.log("Population Increment = ", population++);
 console.log("Population Increment = ", ++population);
 console.log("Does " + country + " have more people than Norway? " + (population > 6000000));
 
+const description = `${country} is located in ${continent}. It has around ${population} people living in it. The official language of ${country} is ${language}.
+Go ${country}!!`;
 
+console.log(description);
 
 // Data types
 /*
@@ -71,3 +74,9 @@ let introduction = `Hi I'm ${firstName}.`;
 let lastName = `John`;
 let introducelastName = `My last name is ${lastName}.`;
 console.log(introduction, introducelastName);
+
+let multiLine = `This is a multi-line 
+string which was written
+using template literals!🐱‍🏍`;
+console.log(multiLine);
+
