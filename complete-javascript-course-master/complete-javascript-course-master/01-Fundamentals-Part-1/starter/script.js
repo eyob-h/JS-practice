@@ -103,6 +103,7 @@ if (numNeighbours == 0) {
 
 */
 
+/*
 // Logical Operators
 let country = prompt("Where are you from?");
 let population = Number(prompt("How many people live in your country?"));
@@ -113,4 +114,36 @@ if ((population < 50000000) && (!isIsland)) {
 } else {
     console.log(`${country} doesn't meet the criteria for Sarah.`);
 }
+*/
 
+
+// The switch statement
+let language = prompt("What language do you speak?");
+
+switch (language) {
+    case 'chinese':
+    case 'mandarin':
+        console.log("🎉Congrats! You've the most number of native speakers!");
+        break;
+    case 'spanish':
+        console.log("🎉Yay! You've the second most number of native speakers!");
+        break;
+    case 'english':
+        console.log("🎉Yay! You've the third most number of native speakers!");
+        break;
+    case 'arabic':
+        console.log("Wow! You've the fourth most number of native speakers!");
+        break;
+    default:
+        console.log(`${language} is a cool language too😊.`)
+}
+
+
+// The ternary operator
+// age = 40;
+// console.log(age >= 50 ? 'Senior Citizen' : 'Youngling');
+
+let country = prompt("Where are you from?");
+let population = Number(prompt("How many people live in your country?"));
+
+console.log(`${country}'s population is ${population > 33000000 ? 'above' : 'below'} average`)
