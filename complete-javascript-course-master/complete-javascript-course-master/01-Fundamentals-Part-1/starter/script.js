@@ -76,7 +76,7 @@ let lastName = `John`;
 let introducelastName = `My last name is ${lastName}.`;
 console.log(introduction, introducelastName);
 
-let multiLine = `This is a multi-line 
+let multiLine = `This is a multi-line
 string which was written
 using template literals!🐱‍🏍`;
 console.log(multiLine);
@@ -88,6 +88,7 @@ console.log('123' < 57); // -> false
 console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 117x  1143
 */
 
+/*
 // == and ===
 let numNeighbours = prompt("How many countries neighbour your country?");
 if (numNeighbours == 0) {
@@ -99,3 +100,17 @@ if (numNeighbours == 0) {
 } else {
     console.log("You've more than 2 neighbours!");
 }
+
+*/
+
+// Logical Operators
+let country = prompt("Where are you from?");
+let population = Number(prompt("How many people live in your country?"));
+let isIsland = Boolean(Number(prompt("Type 1 if your country an Island, 0 otherwise.")));
+
+if ((population < 50000000) && (!isIsland)) {
+    console.log(`Sarah should live in ${country} 😊`);
+} else {
+    console.log(`${country} doesn't meet the criteria for Sarah.`);
+}
+
