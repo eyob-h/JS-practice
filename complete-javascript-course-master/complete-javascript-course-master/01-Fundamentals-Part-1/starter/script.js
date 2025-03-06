@@ -116,7 +116,7 @@ if ((population < 50000000) && (!isIsland)) {
 }
 */
 
-
+/*
 // The switch statement
 let language = prompt("What language do you speak?");
 
@@ -137,8 +137,9 @@ switch (language) {
     default:
         console.log(`${language} is a cool language too😊.`)
 }
+*/
 
-
+/*
 // The ternary operator
 // age = 40;
 // console.log(age >= 50 ? 'Senior Citizen' : 'Youngling');
@@ -147,3 +148,6 @@ let country = prompt("Where are you from?");
 let population = Number(prompt("How many people live in your country?"));
 
 console.log(`${country}'s population is ${population > 33000000 ? 'above' : 'below'} average`)
+
+*/
+
