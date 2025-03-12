@@ -50,6 +50,8 @@ console.log(kenyaPercentage2)
 */
 
 
+
+/*
 // Arrow Functions
 const percentageOfWorld3 = population => ((population / 7900) * 100);
 
@@ -61,3 +63,19 @@ console.log("\n Arrow Function");
 console.log(ethiopiaPercentage3);
 console.log(egyptPercentage3);
 console.log(kenyaPercentage3)
+*/
+
+
+/*
+// Arrays
+let populations = [130, 110, 89, 50];
+console.log(populations.length === 4);
+
+function percentageOfWorld1(population) {
+    return ((population / 7900) * 100);
+}
+
+let percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[3])];
+console.log(percentages);
+*/
+
