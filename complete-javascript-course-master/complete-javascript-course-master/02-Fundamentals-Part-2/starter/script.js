@@ -79,3 +79,14 @@ let percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(popula
 console.log(percentages);
 */
 
+
+// Dot and bracket notation
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'A.',
+    age: 987 - 455,
+    job: 'Astronaut',
+    friends: ['Michael', 'Peter', 'Steven']
+}
+
+console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is ${jonas.friends[0]}😁.`)
