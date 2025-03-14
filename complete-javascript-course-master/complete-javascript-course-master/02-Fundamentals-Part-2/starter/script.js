@@ -81,12 +81,28 @@ console.log(percentages);
 
 
 // Dot and bracket notation
+
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'A.',
+//     age: 987 - 455,
+//     job: 'Astronaut',
+//     friends: ['Michael', 'Peter', 'Steven']
+// }
+
+// console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is ${jonas.friends[0]}😁.`)
+
+
+
 const jonas = {
     firstName: 'Jonas',
-    lastName: 'A.',
-    age: 987 - 455,
-    job: 'Astronaut',
-    friends: ['Michael', 'Peter', 'Steven']
+    lastName: 'Abe',
+    birthYear: 1991,
+    job: 'Teacher',
+    hasDriverLicense: true,
+    calculateAge: function () {
+        return 2025 - this.birthYear;
+    }
 }
 
-console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is ${jonas.friends[0]}😁.`)
+console.log(`${jonas.firstName} is a ${calculateAge} ${jonas.job}, and has ${''} `)
