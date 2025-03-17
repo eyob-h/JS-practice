@@ -99,10 +99,16 @@ const jonas = {
     lastName: 'Abe',
     birthYear: 1991,
     job: 'Teacher',
-    hasDriverLicense: true,
+    hasDriverLicense: false,
     calculateAge: function () {
         return 2025 - this.birthYear;
+    },
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calculateAge()} year old ${this.job}, and has ${this.hasDriverLicense ? 'a' : 'no'} driver's licence.`
     }
 }
 
-console.log(`${jonas.firstName} is a ${calculateAge} ${jonas.job}, and has ${''} `)
+// console.log(`${jonas.firstName} is a ${jonas.calculateAge()} year old ${jonas.job}, and has ${jonas.hasDriverLicense ? 'a' : 'no'} driver's licence.  `);
+let j = jonas;
+// console.log(j);
+console.log(j.getSummary());
