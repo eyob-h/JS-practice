@@ -93,6 +93,7 @@ console.log(percentages);
 // console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is ${jonas.friends[0]}😁.`)
 
 
+/*
 
 const jonas = {
     firstName: 'Jonas',
@@ -112,3 +113,30 @@ const jonas = {
 let j = jonas;
 // console.log(j);
 console.log(j.getSummary());
+
+*/
+
+
+/*
+// The for loop
+
+for (let i = 1; i <= 50; i++) {
+    console.log(`Voter number ${i} is currently voting`)
+}
+*/
+
+const jonasArray = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+];
+
+const typeOfElementsArray = [];
+
+for (let i = 0; i < jonasArray.length; i++) {
+    typeOfElementsArray[i] = typeof jonasArray[i];
+}
+
+console.log(typeOfElementsArray)
