@@ -123,7 +123,6 @@ console.log(j.getSummary());
 for (let i = 1; i <= 50; i++) {
     console.log(`Voter number ${i} is currently voting`)
 }
-*/
 
 const jonasArray = [
     'Jonas',
@@ -139,4 +138,48 @@ for (let i = 0; i < jonasArray.length; i++) {
     typeOfElementsArray[i] = typeof jonasArray[i];
 }
 
-console.log(typeOfElementsArray)
+console.log(typeOfElementsArray);
+*/
+
+// function percentageOfWorld1(population) {
+//     return (population / 7900) * 100;
+// }
+
+// let populations = [130, 110, 89, 50];
+// let percentages2 = [];
+// console.log(`Population Percentages: ${percentages2}`);
+
+// for (let i = 0; i < populations.length; i++) {
+//     percentages2.push(percentageOfWorld1(populations[i]));
+// }
+
+// console.log(`Population Percentages: ${percentages2}`);
+
+// Looping backwards and loops in loops
+// let listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
+
+// for (let i = 0; i < listOfNeighbours.length; i++) {
+//     // console.log(listOfNeighbours[i])
+//     // console.log(typeof listOfNeighbours[i])
+//     // console.log(listOfNeighbours[i].length)
+//     // for (let j = 0; j < listOfNeighbours[i].length; i++) {
+//     for (let j = 0; j < listOfNeighbours[i].length; j++) {
+//         console.log(`Neighbour: ${listOfNeighbours[i][j]}`);
+//     }
+// }
+
+// The while loop
+function percentageOfWorld1(population) {
+    return (population / 7900) * 100;
+}
+
+let populations = [130, 110, 89, 50];
+let percentages2 = [];
+
+let i = 0;
+while (i < populations.length) {
+    percentages2.push(percentageOfWorld1(populations[i]));
+    i++;
+}
+
+console.log(`Population Percentages: ${percentages2}`);
