@@ -1,7 +1,6 @@
 // Remember, we're gonna use strict mode in all scripts now!
 'use strict';
 
-/*
 ///////////////////////////////////////
 // Using Google, StackOverflow and MDN
 
@@ -64,9 +63,10 @@ const calcTempAmplitudeNew = function (t1, t2) {
   console.log(max, min);
   return max - min;
 };
-const amplitudeNew = calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]);
+const amplitudeNew = calcTempAmplitudeNew([3, 5, 1]);
+console.log('00000000000000000000');
 console.log(amplitudeNew);
-
+console.log('00000000000000000000');
 
 ///////////////////////////////////////
 // Debugging with the Console and Breakpoints
@@ -114,7 +114,6 @@ const calcTempAmplitudeBug = function (t1, t2) {
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 // A) IDENTIFY
 console.log(amplitudeBug);
-*/
 
 ///////////////////////////////////////
 // Coding Challenge #1
@@ -158,4 +157,3 @@ const printForecast = function (arr) {
 };
 printForecast(data1);
 */
-
